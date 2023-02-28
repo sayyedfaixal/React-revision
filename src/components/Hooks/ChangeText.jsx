@@ -5,14 +5,14 @@ const ChangeText = () => {
   const [bool, setBool] = useState(0);
   function handleClick() {
         if(bool){
-            setTitle("Hello there")
-            setBool(0)
-            console.log("false")
+            setTitle("Hello there");
+            setBool(0);
+            console.log("false");
         }
         else{
-            setTitle("Hi there")
-            setBool(1)
-            console.log("false")
+            setTitle("Hi there");
+            setBool(1);
+            console.log("false");
         }
   }
   return (

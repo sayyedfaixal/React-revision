@@ -5,7 +5,7 @@ const A = (props) => {
     <>
     <B name = {props.name}>
       {props.children}
-      <hr />
+      <br />
       Hey there I am a child of Component B
     </B>
     </>

@@ -7,6 +7,7 @@ function App() {
       <A name={name}>This is comming from App Component.</A>
       <hr color="magenta" />
       <CompA />
+      <hr color="pink" />
     </div>
   );
 }

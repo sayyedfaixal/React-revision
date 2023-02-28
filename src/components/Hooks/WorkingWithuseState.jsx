@@ -1,18 +1,18 @@
 import React, {useState} from 'react'
 
-const ChangeText = () => {
+const WorkingWithuseState = () => {
   const [title, setTitle] = useState("Hi there");
   const [bool, setBool] = useState(0);
   function handleClick() {
         if(bool){
             setTitle("Hello there");
             setBool(0);
-            console.log("false");
+            console.log(bool);
         }
         else{
             setTitle("Hi there");
             setBool(1);
-            console.log("false");
+            console.log(bool);
         }
   }
   return (
@@ -23,4 +23,4 @@ const ChangeText = () => {
   )
 }
 
-export default ChangeText
+export default WorkingWithuseState

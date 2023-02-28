@@ -1,7 +1,7 @@
 import A from "./components/propDrilling/A";
 import CompA from "./components/contextAPI/CompA";
 import Comp1 from "./components/UseContext/Comp1";
-import ChangeText from "./components/Hooks/ChangeText";
+import WorkingWithuseState from "./components/Hooks/WorkingWithuseState";
 function App() {
   const name = "Faisal";
   return (
@@ -12,7 +12,7 @@ function App() {
       <hr color="red" />
       <Comp1 />
       <hr color="red" />
-      <ChangeText />
+      <WorkingWithuseState />
     </div>
   );
 }

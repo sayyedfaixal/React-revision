@@ -6,7 +6,8 @@ const Comp3 = () => {
   const lName = useContext(LastName);
   return (
     <div>
-      <h4>Getting the values from Parent Comp1 inside Comp3 - {fName} {mName} {lName}</h4>
+      <h2>useContext</h2>
+      <h4>Getting the values from Parent Comp1 inside Comp3 via  - {fName} {mName} {lName}</h4>
     </div>
   )
 }

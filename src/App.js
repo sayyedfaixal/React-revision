@@ -4,7 +4,7 @@ import Comp1 from "./components/UseContext/Comp1";
 import WorkingWithuseState from "./components/Hooks/WorkingWithuseState";
 import DocTitleOne from "./components/Hooks/CustomHooks/DocTitleOne";
 import DocTitleTwo from "./components/Hooks/CustomHooks/DocTitleTwo";
-// import WorkingWithuseEffect from "./components/Hooks/WorkingWithuseEffect";
+import WorkingWithuseEffect from "./components/Hooks/WorkingWithuseEffect";
 function App() {
   const name = "Faisal";
   return (
@@ -17,7 +17,7 @@ function App() {
       <hr color="green" />
       <WorkingWithuseState />
       <hr color="black" />
-      {/* <WorkingWithuseEffect /> */}
+      <WorkingWithuseEffect />
       <p>useEffect Hook</p>
       <p>Uncomment the above line to see the useEffect Hook on fetch API.</p>
       <hr color="yellow" />

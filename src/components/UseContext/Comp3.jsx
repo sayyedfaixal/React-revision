@@ -7,7 +7,7 @@ const Comp3 = () => {
   return (
     <div>
       <h2>useContext</h2>
-      <h4>Getting the values from Parent Comp1 inside Comp3 via  - {fName} {mName} {lName}</h4>
+      <h4>Getting the values from Parent Comp1 inside Comp3 via useContext hook - {fName} {mName} {lName}</h4>
     </div>
   )
 }

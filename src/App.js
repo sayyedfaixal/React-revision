@@ -5,6 +5,8 @@ import WorkingWithuseState from "./components/Hooks/WorkingWithuseState";
 import DocTitleOne from "./components/Hooks/CustomHooks/DocTitleOne";
 import DocTitleTwo from "./components/Hooks/CustomHooks/DocTitleTwo";
 import WorkingWithuseEffect from "./components/Hooks/WorkingWithuseEffect";
+import ListRendering from "./components/List/ListRendering";
+import CounterOne from "./components/Hooks/CounterOne";
 function App() {
   const name = "Faisal";
   return (
@@ -24,6 +26,9 @@ function App() {
       <DocTitleOne />
       <DocTitleTwo />
       <hr color="indigo" />
+      <ListRendering />
+      <hr color="violet" />
+      <CounterOne />
     </div>
   );
 }
